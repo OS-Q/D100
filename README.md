@@ -1,63 +1,30 @@
-﻿# D97：[ISM低频通道](https://github.com/OS-Q/D97)
-
+﻿# [Ethernet转换L](https://github.com/OS-Q/D97)
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
-
-#### 归属通道转换：[W14](https://github.com/OS-Q/W14)
-
+#### 归属电气转换：[W14](https://github.com/OS-Q/W14)
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+### [设备描述](https://github.com/OS-Q/D97/wiki) 
 
-## [平台描述](https://github.com/OS-Q/D97/wiki) 
+IEEE组织的IEEE802.3标准制定了以太网的技术标准，规定了包括物理层的连线、电子信号和介质访问层协议的内容。
 
-ISM低频通道设备，实现低频无线射频通信转换
+以太网的帧格式与 IP 是一致的，特别适合于传输 IP 数据。以太网由于具有简单方便、价格低、速度高等。
 
-### [资源](OS-Q/)
+### [设备资源](https://github.com/OS-Q/D97) 
 
-#### [文档资料](docs/)
+- [资源](src/)
+- [文档](docs/)
+- [工程](project/)
 
-包括主要的芯片手册，设计参考等
+### [设备相关](https://github.com/OS-Q/D97) 
 
-#### [工程代码](project/)
+* W14：[电气转换](https://github.com/OS-Q/W14)
+    * D92：[IIC](https://github.com/OS-Q/D92)
+    * D93：[RS485-L](https://github.com/OS-Q/D93)
+    * D94：[RS485-A](https://github.com/OS-Q/D94)
+    * D95：[USB-L](https://github.com/OS-Q/D95)
+    * D96：[USB-A](https://github.com/OS-Q/D96)
+    * D97：Ethernet-L
+    * D98：[Ethernet-A](https://github.com/OS-Q/D98)
 
-包括软件工程文件
-
----
-
-- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
-
-- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
-
-## [同级设备](https://github.com/OS-Q/W14/wiki) 
-
-#### D92：[USB](https://github.com/OS-Q/D92)
-
-将数据转换为USB通信数据，方便适配各种标准设备
-
-#### D93：[RS485](https://github.com/OS-Q/D93)
-
-将数据转换为RS485信号，用于长距离和控制类适配
-
-#### D94：[Ethernet](https://github.com/OS-Q/D94)
-
-通过以太网转发数据，实现数据入网或者长距通信
-
-#### D95：[IR](https://github.com/OS-Q/D95)
-
-将通信数据转换为IR信号发送，短距无线通信控制
-
-#### D96：[ISM-HF](https://github.com/OS-Q/D96)
-
-将数据转换为高频ISM射频信号，实现近距离通信
-
-#### -> D97：[ISM-LF](https://github.com/OS-Q/D97)
-
-将数据转换为低频ISM射频信号，实现远距离通信
-
-#### D98：[LoRa](https://github.com/OS-Q/D98)
-
-将数据转换为LoRa射频信号，实现广域无线通信
-
----
-
-####  © qitas@qitas.cn
-###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####  @ 2019-1-7
+### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/D97)
+####  2019-5-15
