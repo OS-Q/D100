@@ -1,8 +1,8 @@
 {
-  "name":   "sensor",
+  "name":   "IR",
   "version":    "1.0.0",
-  "keywords":    "humidity, temperature, air",
-  "description": "IIC Digital Humidity & Temperature Sensor",
+  "keywords":    "Signal Input/Output",
+  "description": "IR Signal Input/Output",
   "authors":
   {
     "name":  "qitas",
@@ -16,5 +16,5 @@
   },
 
   "frameworks": "arduino",
-  "platforms":  "espressif,esp8266,esp32"
+  "platforms":  "espressif,esp8266"
 }
