@@ -1,20 +1,17 @@
 {
-  "name":   "IR",
-  "version":    "1.0.0",
-  "keywords":    "Signal Input/Output",
-  "description": "IR Signal Input/Output",
-  "authors":
-  {
+  "name":"IR",
+  "description":"IR",
+  "keywords":"sensor,IR",
+  "version": "1.1.0",
+  "authors": {
     "name":  "qitas",
     "email": "qitas@qitas.cn",
-     "url": "http://tang.qitas.cn"
+    "url": "http://tang.qitas.cn"
   },
-  "repository":
-  {
+  "repository": {
     "type": "git",
-    "url":  "https://github.com/OS-Q/D94.git"
+    "url": "https://github.com/OS-Q/D100.git"
   },
-
   "frameworks": "arduino",
-  "platforms":  "espressif,esp8266"
+  "platforms":"espressif,esp8266,esp32"
 }
